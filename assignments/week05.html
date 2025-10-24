@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Renata Y Cecilia - IBERO PUEBLA</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="Fab Academy documentation site for Your Name">
+	<link rel="stylesheet" href="../assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="../assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+
+				<!-- Logo -->
+				<a href="../index.html" class="logo">
+					<span class="symbol"><img src="../assets/images/iberologo.png" alt="" /></span><span class="title">Renata Y Cecilia -
+						IBERO PUEBLA</span>
+				</a>
+
+				<!-- Nav -->
+				<nav>
+					<ul>
+						<li><a href="#menu">Menu</a></li>
+					</ul>
+				</nav>
+
+			</div>
+		</header>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<h2>Menu</h2>
+			<ul>
+				<li><a href="../index.html">Proyectos</a></li>
+				<li><a href="../finalproject.html">Proyecto Final</a></li>
+				<li><a href="../about.html">Sobre Nosotras </a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+				<h1>5. Cortadora de Vinil</h1>
+				<h2>Introducción </h2>
+				<p>Una cortadora de vinil es una máquina de fabricación digital que utiliza una navaja controlada por motor 
+					para cortar materiales delgados siguiendo líneas vectoriales. Generalmente se usa para recortes de vinil 
+					adhesivo, plantillas o gráficos, pero también puede adaptarse para otros materiales si se ajustan los 
+					parámetros de corte.<p>
+
+                    </p>En este proyecto, buscamos aprovechar la cortadora de vinil como una herramienta alternativa para 
+					fabricar PCB flexibles, reemplazando el vinil por cinta de cobre. La idea es desarrollar un proceso de 
+					prototipado rápido, donde el diseño del circuito se prepara digitalmente y la máquina corta directamente 
+					las pistas sobre el material conductor. Aunque el método requiere ajustes y aún está en fase experimental, 
+					tiene potencial para crear circuitos simples, económicos y flexibles sin necesidad de procesos químicos o 
+					de grabado tradicionales.</p>
+
+				<h2>Preparamos Tapete y Material </h2>
+				<p>La cinta de cobre no se comporta como vinil normal porque es metálica, delgada y sin rigidez. Para que 
+					no se mueva, se puso pegamento extra en la cama adhesiva, luego una capa de vinil de sacrificio, y encima 
+					la cinta de cobre. Es importante que no haya material sobre los bordes negros del tapete porque interfiere 
+					con el mecanismo de carga.</p>
+				
+				<p>El tapete se tiene que limpiar con alcohol antes y después de cada uso. Si no, se acumula adhesivo y residuos
+					 de cobre que arruinan la planitud de la superficie y afectan cortes futuros.</p>
+
+			    <h2>Proceso de Corte </h2>
+
+				<p>Se preparó el archivo SVG y se cargó desde una USB. Se posicionó el diseño en la cuadrícula donde había 
+					material confirmado. Antes de hacer el corte completo, se recomienda hacer una prueba en una esquina 
+					pequeña para verificar presión y profundidad sin arruinar toda la pieza.</p>
+
+				<h2>Configuración de Parámetros</h2>
+
+				<p>Algunos compañeros realizaron distintas pruebas para poder obtener configuraciones que dieron resultados decentes
+					nos comentaron que estas fueron las medidas.
+				</p>
+
+				<p>Velocidad de corte: 1, Presión de corte: -9, Presión manual: -1, Half cut: On, Presión half cut: -1</p>
+
+				<h2>Algunos Problemas</h2>
+
+				<p>El cobre se arruga en vez de cortarse limpio, Pedacitos de cobre se atoran en la navaja y después desgarran el material,
+					Se tuvo que sostener manualmente el cabezal porque algo se rompió en la máquina, Los resultados varían mucho entre intentos, 
+					La navaja probablemente necesita reemplazo por el desgaste del cobre. </p>
+
+				<h2>Conclusión</h2>
+
+				<p>Usar cortadora de vinil para PCBs flexibles es una alternativa interesante para prototipado rápido, pero todavía hay 
+					cosas que se pueden hacer para mejorar.</p>
+
+				
+				
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<section>
+					<h2>Get in touch</h2>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field half">
+								<input type="text" name="name" id="name" placeholder="Name" />
+							</div>
+							<div class="field half">
+								<input type="email" name="email" id="email" placeholder="Email" />
+							</div>
+							<div class="field">
+								<textarea name="message" id="message" placeholder="Message"></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send" class="primary" /></li>
+						</ul>
+					</form>
+				</section>
+				<section>
+					<h2>Follow</h2>
+					<ul class="icons">
+						<li><a href="https://www.instagram.com/renatx_9/" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a>
+						</li>
+						<li><a href="https://www.instagram.com/ceciliaa.pp/" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a>
+						</li>
+						<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+						<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+			
+				</section>
+				<ul class="copyright">
+					<li>&copy; Copyright 2025 Renta Morales y Cecilia Piña </li>
+					<li>Creative Commons Attribution Non Commercial</li>
+				</ul>
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
